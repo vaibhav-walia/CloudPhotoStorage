@@ -20,7 +20,7 @@ new mongodb.Db('CloudPhotoStorage',dbServer).open(function(err,client){
           http.createServer(function(request,response){
           var path = url.parse(request.url).pathname;
           console.log("request for "+path+" received");
-          route(handle,path,response,pictures);
+          route(handle,path,request,response,pictures);
           response.writeHead(200,{"Content-Type":"text/plain"});
          // response.write("It Works!");
           //response.end();
