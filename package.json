@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/vaibhav-walia/CloudPhotoStorage/issues"
   },
-  "homepage": "https://github.com/vaibhav-walia/CloudPhotoStorage"
+  "homepage": "https://github.com/vaibhav-walia/CloudPhotoStorage",
+  "dependencies": {
+    "mongodb": "^2.0.43"
+  }
 }
