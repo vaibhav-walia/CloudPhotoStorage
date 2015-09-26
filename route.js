@@ -2,7 +2,7 @@
 
 function route(handle,path,request,response,pictures){
 
- console.log("Routing information for "+path);
+// console.log("Routing information for "+path);
 
  if (typeof handle[path] === 'function'){ 
 
